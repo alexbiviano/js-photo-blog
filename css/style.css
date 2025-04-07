@@ -1,0 +1,21 @@
+
+header{
+    background-image: url(../img/wall.png);
+    font-family: 'Edu Tas Beginner'
+}
+
+body{
+    background-image: url(../img/cork.png);
+}
+
+
+h1{
+    font-size: 600%
+}
+
+#pin{
+    position:absolute;
+    top: -15px;
+    left: 50%
+
+}
