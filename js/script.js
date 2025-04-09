@@ -1,4 +1,4 @@
-// chiamata axios 
+// includo axios per effettuare una chiamata get a un'api che mi restituisce un'elenco di immagini
 axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
     let data = resp.data;
     showCards(data);
